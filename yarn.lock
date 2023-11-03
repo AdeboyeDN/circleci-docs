@@ -1274,36 +1274,29 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@optimizely/js-sdk-datafile-manager@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-datafile-manager/-/js-sdk-datafile-manager-0.8.1.tgz#b491bf56ac713a66344f8b26fdbaaee14e0b4365"
-  integrity sha512-zMfyXQUqJlPoFGTNvreGSneGRnr5hn4jp03ofipIpA/RONNsf7DEi/H/uC4pAZxlYm1r5eHZRwKU6gwZTB31LQ==
+"@optimizely/js-sdk-datafile-manager@^0.9.5":
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-datafile-manager/-/js-sdk-datafile-manager-0.9.5.tgz#c1fa25a4bbdabe97929c72895ca2a48e28047a34"
+  integrity sha512-O4ujr1nBBAQBtx8YoKNpzzaEZgsE+aU4dxubT17ePqv/YVUWE+JOY21tSRrqZy/BlbbyzL+ElT8hrGB5ZzVoIQ==
   dependencies:
-    "@optimizely/js-sdk-logging" "^0.1.0"
+    "@optimizely/js-sdk-logging" "^0.3.1"
     "@optimizely/js-sdk-utils" "^0.4.0"
     decompress-response "^4.2.1"
 
-"@optimizely/js-sdk-event-processor@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-event-processor/-/js-sdk-event-processor-0.8.2.tgz#28ad138e09c614ed6282bd4bd2e5b219ec9a8ed6"
-  integrity sha512-5sVcQFqgKF0R+vJbBXy6ykKTlEfll0Ti0xGeKU3TLILRNvPDxTpVAlyrLfBC/yfF/hopjRPusGp3z9lZnVej0w==
+"@optimizely/js-sdk-event-processor@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-event-processor/-/js-sdk-event-processor-0.10.0.tgz#f12aa0a1a161b0c33f399d44e3c1adecf2b828ce"
+  integrity sha512-Fkv0ulte/KT+ClgSbchcZeFYzGZbxVtl0mqmlGC9QtEXuJlOfnsKD9C3kZ1SnL2P7+5d9QhYotlxXJr19SQRQw==
   dependencies:
-    "@optimizely/js-sdk-logging" "^0.1.0"
+    "@optimizely/js-sdk-logging" "^0.3.1"
     "@optimizely/js-sdk-utils" "^0.4.0"
 
-"@optimizely/js-sdk-logging@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-logging/-/js-sdk-logging-0.1.0.tgz#e5950c3d9a708fbd5931a043130469c5df7f64e8"
-  integrity sha512-Bs2zHvsdNIk2QSg05P6mKIlROHoBIRNStbrVwlePm603CucojKRPlFJG4rt7sFZQOo8xS8I7z1BmE4QI3/ZE9A==
+"@optimizely/js-sdk-logging@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-logging/-/js-sdk-logging-0.3.1.tgz#358b48f4ce2ce22b1969d9e3e929caac1e6e6351"
+  integrity sha512-K71Jf283FP0E4oXehcXTTM3gvgHZHr7FUrIsw//0mdJlotHJT4Nss4hE0CWPbBxO7LJAtwNnO+VIA/YOcO4vHg==
   dependencies:
-    "@optimizely/js-sdk-utils" "^0.1.0"
-
-"@optimizely/js-sdk-utils@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@optimizely/js-sdk-utils/-/js-sdk-utils-0.1.0.tgz#e3ac1fef81f11c15774f4743c3fa7c65d9c3352a"
-  integrity sha512-p7499GgVaX94YmkrwOiEtLgxgjXTPbUQsvETaAil5J7zg1TOA4Wl8ClalLSvCh+AKWkxGdkL4/uM/zfbxPSNNw==
-  dependencies:
-    uuid "^3.3.2"
+    "@optimizely/js-sdk-utils" "^0.4.0"
 
 "@optimizely/js-sdk-utils@^0.4.0":
   version "0.4.0"
@@ -1312,17 +1305,17 @@
   dependencies:
     uuid "^3.3.2"
 
-"@optimizely/optimizely-sdk@4.6.2":
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/@optimizely/optimizely-sdk/-/optimizely-sdk-4.6.2.tgz#2f6ed23d88970f9f3420286f93ed6120dfcf14ea"
-  integrity sha512-ohXLafoShX6i5daZWbu+hHpAtw8i9QTOiwkHMRNIwBc70fcTDpUwl0UXsGbyJAmF1rTgcIknvqZKifVXLr/hgg==
+"@optimizely/optimizely-sdk@4.10.0":
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/@optimizely/optimizely-sdk/-/optimizely-sdk-4.10.0.tgz#3644d0b97c928f18b2e4636c99f8f89b60ee7215"
+  integrity sha512-DVsbhhwOObJRKDkrXcJJw0FZh/7PIbHAewmtm3fCq9jU2UE2n45h1e/Iy4IgRzUaSOrJccN+wUsN+lD3XTJwww==
   dependencies:
-    "@optimizely/js-sdk-datafile-manager" "^0.8.1"
-    "@optimizely/js-sdk-event-processor" "^0.8.2"
-    "@optimizely/js-sdk-logging" "^0.1.0"
-    "@optimizely/js-sdk-utils" "^0.4.0"
-    json-schema "^0.2.3"
+    "@optimizely/js-sdk-datafile-manager" "^0.9.5"
+    "@optimizely/js-sdk-event-processor" "^0.10.0"
+    "@optimizely/js-sdk-logging" "^0.3.1"
+    json-schema "^0.4.0"
     murmurhash "0.0.2"
+    uuid "^3.3.2"
 
 "@popperjs/core@^2.10.1":
   version "2.10.2"
@@ -5822,15 +5815,10 @@ json-schema-traverse@^0.4.1:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
 
-json-schema@0.4.0:
+json-schema@0.4.0, json-schema@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.4.0.tgz#f7de4cf6efab838ebaeb3236474cbba5a1930ab5"
   integrity sha512-es94M3nTIfsEPisRafak+HDLfHXnKBhV3vU5eqPcS3flIWqcxJWgXHXiey3YrpaNsanY5ei1VoYEbOzijuq9BA==
-
-json-schema@^0.2.3:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.5.tgz#97997f50972dd0500214e208c407efa4b5d7063b"
-  integrity sha512-gWJOWYFrhQ8j7pVm0EM8Slr+EPVq1Phf6lvzvD/WCeqkrx/f2xBI0xOsRRS9xCn3I4vKtP519dvs3TP09r24wQ==
 
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
